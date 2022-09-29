@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(151, 10, 10);
+    padding: 0;
+    color: white;
+    font:bolder;
+    border: 20px solid white;
+}
+header h1{
+    color: white;
+   font-size:7ch
+} 
+header h2{
+    color: rgb(197, 180, 158);
+    font-size: 20px;
+}
+.container{
+    height: 500px;
+    position: relative;
+}
+.image1{
+    filter: saturate(400%) hue-rotate(150deg) contrast(90%);
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.bottom{
+    color: white;
+    position:relative;
+    top: 60;
+    left: 0%;
+    transform: translate(-90,-10);
+    font-size: 20px;
+}
+.contain{
+    text-align: center;
+
+}
+ul{
+    width: 400px;
+    margin: auto;
+    font-size: large;
+    font-family: Arial;
+    text-align: center;
+    list-style: inside;
+    padding: 50px o 50px;
+}
+.end{
+    width: 400px;
+    margin: auto;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    list-style: inside;
+    padding: 50px o 50px;
+}
+p{
+    font-size:large;
+    font:bolder;
+}
+p a[href="https://en.wikipedia.org/wiki/Norman_Borlaug"]{
+    color: rgb(88, 88, 221);
+}
+p.done{
+    font-style: normal;
+    font-size:large;
+}
